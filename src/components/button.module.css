@@ -13,3 +13,22 @@
     color: var(--primary-color);
     border: 1.4px solid var(--secondary-color);
   }
+  .button.primary {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1.4px solid var(--secondary-color);
+  }
+  .primary:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+
+  .button.secondary {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 1.4px solid var(--secondary-color);
+  }
+  .secondary:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
