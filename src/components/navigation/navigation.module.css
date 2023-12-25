@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 191px 0px 191px;
+    overflow: hidden;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo_name {
+    font-size: 24px;
+    font-weight: 700;
+  }  
+  .logo_image {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: var(--logo-background-color);
+    border-radius: 50%;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 26px;
+  }
+  
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .links a {
+    color: var(--primary-text-color);
+    opacity: 0.5;
+    font-size: 18px;
+  }
+  .links a.isSelected {
+    opacity: 1;
+    font-weight: 700;
+  }
+  .links a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
