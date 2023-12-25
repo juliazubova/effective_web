@@ -1,6 +1,6 @@
-import HeaderItem from "../models/NavigationItem";
+import NavigationItem from "../models/NavigationItem";
 
-const headerItems: HeaderItem[] = [
+const navigationItems: NavigationItem[] = [
     {
         text: 'Home',
         link: '#',
@@ -28,4 +28,4 @@ const headerItems: HeaderItem[] = [
     },
 ];
 
-export default headerItems;
+export default navigationItems;

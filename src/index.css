@@ -6,17 +6,15 @@
   -moz-osx-font-smoothing: grayscale;
 
   --primary-color: #FFFFFF;
+  --secondary-color: #458FF6;
   --primary-text-color: #000000;
   --secondary-text-color: #7D7987;
-  --logo-background-color: #458FF6;
 
   color: var(--primary-text-color);
 }
-
 body {
   margin: 0;
 }
-
 a {
   text-decoration: none;
 }

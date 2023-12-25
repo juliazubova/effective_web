@@ -1,5 +1,5 @@
 import styles from './navigation.module.css'
-import NavigationItem from '../../models/NavigationItem'
+import NavigationItem from '../models/NavigationItem'
 
 const Navigation = (args: {items: NavigationItem[]}) => {
     const getNavigationItems = () => {

@@ -19,7 +19,7 @@
     width: 30px;
     height: 30px;
     padding: 5px;
-    background-color: var(--logo-background-color);
+    background-color: var(--secondary-color);
     border-radius: 50%;
     text-align: center;
     color: var(--primary-color);
