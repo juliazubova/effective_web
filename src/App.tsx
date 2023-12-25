@@ -1,5 +1,6 @@
 import Button from "./components/Button";
 import CardSection from "./components/CardSection";
+import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import Section from "./components/Section";
 import cardItems from "./data/cardItems";
@@ -42,6 +43,7 @@ function App() {
         isReverse={false}
         hasDivider={true}
       />
+      <Footer/>
     </>
   )
 }
