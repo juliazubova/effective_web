@@ -1,0 +1,31 @@
+.cardSection {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 192px 240px 0px 240px;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }  
+  .cardSection_title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--primary-text-color);
+  }  
+  hr {
+    margin: 0 auto;
+    width: 60px;
+    border: 1px solid var(--primary-text-color);
+  }  
+  .cardSection_description {
+    color: var(--secondary-text-color);
+    font-size: 18px;
+    padding: 0 5%;
+  }  
+  .cardSection_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+    margin: 80px 0px 0px 0px;
+  }
