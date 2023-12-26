@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Лабораторная работа 1 по Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<u>*Задание*</u>: реализовать страницу по следующему [макету](https://www.figma.com/file/4HxKAipeUl0XV4poXyxvnv/Effective-Web-Course?type=design&node-id=0%3A1&mode=design&t=GfYlgxxz2848kWNs-1). 
 
-Currently, two official plugins are available:
+В ходе разработки использовались React, TypeSript и Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Версия npm: 10.2.5
 
-## Expanding the ESLint configuration
+Чтобы запустить проект, необходимо клонировать репозиторий командой ниже
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```git
+git clone https://github.com/juliazubova/effective_web.git effective_web  --branch feature/health-care
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Сначала необходимо установить все зависимости командой npm install, а затем можно запустить и собрать проект.
+
+```
+npm install
+npm run dev "&" run build
+```
+
+<u>*Результат*</u>: 
+
+
+|<img src="application_screens/screen1.jpg">|<img src="application_screens/screen2.jpg">|
+|:-:|:-:|
+|<img src="application_screens/screen3.jpg">|<img src="application_screens/screen4.jpg">| 

@@ -1,0 +1,47 @@
+.footer {
+    padding: 120px 200px;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-content: flex-start;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}  
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}  
+.logo_text {
+    font-size: 24px;
+    font-weight: 700;
+}
+.logo_icon {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 26px;
+}
+.column_title {
+    font-size: 24px;
+    font-weight: 700;
+}  
+.footer_column a {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 300;
+}
